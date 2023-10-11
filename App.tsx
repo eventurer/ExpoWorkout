@@ -10,7 +10,8 @@ const App = () => {
 
     <SafeAreaProvider>
       <GestureHandlerRootView style={{ flex: 1 }}>
-        <NavigationContainer>
+        <NavigationContainer
+        >
           <StackBox />
         </NavigationContainer>
 
